@@ -1,3 +1,5 @@
+"use strict"
+
 function tocaSom(seletorAudio){
     const elemento = document.querySelector(seletorAudio);
     if (elemento && elemento.localName === 'audio'){
