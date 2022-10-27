@@ -28,11 +28,13 @@ for (let contador = 0; contador  < listaDeTeclas.length; contador++)  {
         if (evento.code === 'Space' || evento.code == 'Enter'){
             tecla.classList.add('ativa');
         }
-        else if (evento.code != "Tab"){
+
+    }
+    tecla.onkeyup = function(evento) {
+     tecla.classList.remove('ativa');
+    
+        if (evento.code != 'Tab', 'F5','Alt'){
             alert('aperta a porra correta!!!')
         }
     }
-    tecla.onkeyup = function() {
-        tecla.classList.remove('ativa');
-    }
-}
+}   
