@@ -1,3 +1,3 @@
-# Curso Basico JavaCripts para web"
+# Curso Basico JavaCripts para web
 
 Tecla de som em sequencia....
